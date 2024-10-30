@@ -44,15 +44,30 @@
 //    weight:'700kg'
 //}
 
-let name="Islam";
-let surename= "Mukash";
-let birthday = '11.08.2011';
-let school = 177 
-let weight = 40
+// let name="Islam";
+// let surename= "Mukash";
+// let birthday = '11.08.2011';
+// let school = 177 
+// let weight = 40
  
 
-console.log("My names" ,name)
-console.log("My surename" ,surename)
-console.log("My birthday",birthday)
-console.log("My school" ,school)
-console.log("My weight" ,weight )
+// console.log("My names" ,name)
+// console.log("My surename" ,surename)
+// console.log("My birthday",birthday)
+// console.log("My school" ,school)
+// console.log("My weight" ,weight )
+
+
+let notebookName="Huawei"
+let processor="Core i5"
+let size="16"
+let color="blakc"
+let todayWeather="could"
+let currentTime="16:40"
+
+console.log("notebookName",notebookName)
+console.log("processor",processor)
+console.log("size",size)
+console.log("color",color)
+console.log("todayWeather",todayWeather)
+console.log("currentTime",currentTime)
