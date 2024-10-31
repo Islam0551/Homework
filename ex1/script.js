@@ -71,7 +71,3 @@
 //console.log("color",color)
 //console.log("todayWeather",todayWeather)
 //console.log("currentTime",currentTime)
-
-let surname="Mukash"
-let relatives =["Руслан","Айжан","аяулым","Ислам","Мариям"]
-let relatives=[]
