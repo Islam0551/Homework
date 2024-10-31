@@ -58,16 +58,20 @@
 // console.log("My weight" ,weight )
 
 
-let notebookName="Huawei"
-let processor="Core i5"
-let size="16"
-let color="blakc"
-let todayWeather="could"
-let currentTime="16:40"
+//let notebookName="Huawei"
+//let processor="Core i5"
+//let size="16"
+//let color="blakc"
+//let todayWeather="could"
+//let currentTime="16:40"
+//
+//console.log("notebookName",notebookName)
+//console.log("processor",processor)
+//console.log("size",size)
+//console.log("color",color)
+//console.log("todayWeather",todayWeather)
+//console.log("currentTime",currentTime)
 
-console.log("notebookName",notebookName)
-console.log("processor",processor)
-console.log("size",size)
-console.log("color",color)
-console.log("todayWeather",todayWeather)
-console.log("currentTime",currentTime)
+let surname="Mukash"
+let relatives =["Руслан","Айжан","аяулым","Ислам","Мариям"]
+let relatives=[]
