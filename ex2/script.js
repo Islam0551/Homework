@@ -83,18 +83,32 @@
 //console.log(res % 2);
 
 
-let a=5;
-let b=15;
-let z=45;
-let d=56;
-let c=12;
-let m=65;
-let n=13;
-let u=10;
+//let a=5;
+//let b=15;
+//let z=45;
+//let d=56;
+//let c=12;
+//let m=65;
+//let n=13;
+//let u=10;
+//
+//let total=(a/b)*z+d;
+//var res=(a/b)*z+d/(c-m-d)/(u)
+//console.log(u,z,d)
+//console.log(res %2)
 
-let total=(a/b)*z+d;
-var res=(a/b)*z+d/(c-m-d)/(u)
-console.log(u,z,d)
-console.log(res %2)
 
+//var a= 25;
+//var b= 30;
+//
+//var area=a*b
+//console.log(area);
+//
+//var p =(a+b)*2;
+//console.log();
+
+var m=15;
+var g=10;
+var f=(m*g);
+console.log(f);
 
