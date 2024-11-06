@@ -29,7 +29,7 @@ if (num > 0) {
 }
 
 
-let b = 50; // Example number
+let b = 50; 
 if (b % 5 === 0 && b % 10 === 0) {
     console.log("шын");
 } else {
