@@ -1,4 +1,4 @@
- var a = prompt("а мән беріңіз");
+ var a = prompt("а мән беріңіз");//1
  var b = prompt("b мән беріңіз");
  var c = prompt("c мән беріңіз")
  if (a + b > c, a + c > b, b + c > a) {
@@ -18,7 +18,7 @@
 
 
 
-let grade = prompt("0-ден 100-ге дейін ұпай енгізіңіз:");
+let grade = prompt("0-ден 100-ге дейін ұпай енгізіңіз:");//3
 
 if (grade >= 0 && grade <= 59) {
   alert("Баға: F");
@@ -35,3 +35,5 @@ if (grade >= 80 && grade <= 89) {
 if (grade >= 90 && grade <= 100) {
   alert("Баға: A");
 }
+
+
