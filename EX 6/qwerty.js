@@ -366,15 +366,163 @@
 
 // alert (san);
 
-let num = 1;
-while (num <= 20) {
-  if (num % 3 == 0 && num % 5 == 0) {
-    console.log("fizzbuzz");
-  } else if (num % 3 == 0) {
-    console.log("fizz");
-  } else if (num % 5 == 0) {
-    console.log("buzz");
-  } else {
-    console.log(num);
-  }
-}
+// let num = 1;
+// while (num <= 20) {
+//   if (num % 3 == 0 && num % 5 == 0) {
+//     console.log("fizzbuzz");
+//   } else if (num % 3 == 0) {
+//     console.log("fizz");
+//   } else if (num % 5 == 0) {
+//     console.log("buzz");
+//   } else {
+//     console.log(num);
+//   }
+// }
+
+// let result =1;
+
+// for (let i + = 1 ; < i < 3 ; i++){
+//   result *=;
+// }
+
+// function add (a , b){
+//  return a + b;
+// }
+
+//  function multiply (a , b){
+//    return a * b;
+
+//  const sum = add (3 ,9)
+//  console.log('The result is ' + multiply (add(3 , 9), 5));
+//  }
+
+// function cube (num){
+//   let result = 1;
+
+//  for (let i  = 1 ;  i < 3 ; i++){
+//    result *= num;
+//  }
+
+//  return result;
+// }
+
+// let num = +prompt("San engiz");
+
+// let cubeResult = cube (num);
+
+// console.log(cubeResult);
+
+// const add = ( ) => 5 + 6;
+
+// console.log(add());
+
+// let num1 = +prompt("San ehgiz");
+// let num2 = +prompt("San ehgiz");
+// let tanba = prompt("Tanba ehgiz");
+
+// const calculator = (a, b, c) => {
+//   if (c == "+") {
+//     return a + b;
+//   } else if (c == "-") {
+//     return a - b;
+//   } else if (c == "*") {
+//     return a * b;
+//   } else if (c == "/") {
+//     return a / b;
+//   }
+// };
+
+// console.log(calculator(num1, num2, tanba));
+
+
+
+
+// let num1 = +prompt("San engiz");
+// let num2 = +prompt("San engiz");
+// let num3 = +prompt("San engiz");
+
+
+// const findMax = (a , b , c) => {
+//   if (a > b && a > c ){
+//     return a;
+//   }else if ( b > a && b > c){
+//     return b; 
+//   }else if (  c > a &&  c >b ){
+//     return c;
+//   }
+// }
+
+
+// console.log(findMax(num1 , num2 , num3) ) + "ylren";
+
+
+
+
+
+
+
+// let money = +prompt ('Бірінші ақшаны енгізініз');
+// let currency = prompt('valuta engiz');
+
+// const moneyConvert = (x , z) => {
+//   if (currency == "dollor"){
+//     return x * 500;
+//   }else if (currency == "tg"){
+//     return x / 500;
+//   }
+// }
+
+// console.log(moneyConvert(money , currency));
+
+
+// let result = 0;
+// for (let object  = 1; i <= Infinity ; i++){
+//   let a =prompt( "Zat san ");
+//   let b = prompt("Baga ");
+
+
+
+//   result += b;
+
+
+
+//   if (a == "stop"){
+//     break;
+//   }else {
+//   continue;
+//   }
+// }
+
+// console.log(result(a , b));
+
+
+
+
+
+
+
+
+// function shygynEseptu() (
+//     let result = 0;
+//     while (true) (
+//     // шексіз цикл
+//     let tavar = prompt('tauar atyn jaz:');
+//     if (tavar = 'stop') (
+//     break;
+//     let baga = +prompt(' tavar bagasy: *' )
+//     result += baga;
+
+//     return result;
+//     17
+//     You, 21 seconds ago
+//     18 alert(shygynEseptu());
+//      Uncommitted changes
+//     )
+// )
+//     )
+// )
+
+
+
+
+    
