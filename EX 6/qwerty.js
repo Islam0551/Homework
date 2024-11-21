@@ -525,4 +525,122 @@
 
 
 
+
+
+
+
+// function kosu (a , b){
+//     return a + b;
+    
+// }
+// console.log(kosu (4 , 6));
+
+
+
+// const findLength = function (text){
+//     return text.length ;
+// };
+// console.log(findLength("Hello,world !"));
+
+
+
+
+
+// const compareScores = function(score1 , score2) => {
+//     if (score1 > score2){
+//         return "Бірінші студент жоғары баға алды";
+//     }if{
+//         return "Екініші студент жоғары баға алды";
+//     }
+// };
+
+// console.log(compareScores(85,90));
+
+
+
+
+
+
+
+
+
+// const qwerty = (score1 , score2) => {
+//    var a = +prompt("Ақша саны ");
+//    var b = prompt("Ақшаның валютасы ");
+//    var c = +prompt ("Ақша саны ");
+//    var d = +prompt ("Ақшаның валютасы")
+
+//     if (b == dollor ){
+//         dolllor = a * 494.44;
+//         euro = c * 494.44;
+//     }else if (b == euro ){
+//         euro = a * 524.11;
+//         dollor = c * 524.11 ;
+//     }
+// };
+// qwerty()
+// console.log(qwerty (a , c , b , d));
+
+
+
+
+
+// let money = +prompt ('Бірінші ақшаны енгізініз');
+// let currency = prompt('Бірінші ақшаны енгізініз');
+// let moneym = +prompt ('Бірінші ақшаны енгізініз');
+// let currencyy = prompt('valuta engiz');
+
+// const moneyConvert = (x , z) => {
+//   if (currency == "dollor"){
+//     return x * 494;
+//   }else if (currency == "tg"){
+//     return x * 494;
+//   }else if (currency == "euro"){
+//     return x * 524;
+//   }else if (currency == "tg"){
+//     return x * 524;
+//   }
+// }
+
+//  console.log(moneyConvert(money , currency));
+
+
+
+
+// const USD = (a, b) => {
+//     var a1 = +prompt("aksha sany");
+//     var b1 = prompt("aksha valutasy");
+//     var a2 = +prompt("aksha sany");
+//     var b2 = prompt("aksha valutasy");
+//     var money1 = 0;
+//     var money2 = 0;
+
+//     if (b1 == "dollar") {
+//       money1 = a1 * 494;
+//     } else if (b1 == "euro") {
+//       money2 = a1 * 524;
+//     } else if (a2=='dollar'){
+//         money1=a2*494
+//     } else if (a2=='euro'){
+//         money2=a2*524
+//     }
+
+
+
+
+//     if (money1 > money2) {
+//       console.log(a1 + b1);
+//     } else if (money2 > money1) {
+//       console.log(a2 + b2);
+//     } else if (money2 == money1) {
+//       console.log(a + '=' +b);
+//     }
+//     return money1,money2;
+//   };
+
+//   USD()
+
+
+
+
     
