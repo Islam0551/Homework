@@ -437,23 +437,29 @@
 
 
 
-// let num1 = +prompt("San engiz");
-// let num2 = +prompt("San engiz");
-// let num3 = +prompt("San engiz");
+function MessiisPrime() {
+    let number = Number(prompt("Бір сан енгізіңіз:"));
+  
+    if (number <= 1) {
+      alert("Жай сан емес.");
+      return;
+    }
+  
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        alert("Жай сан емес.");
+        return;
+      }
+    }
+  
+    alert("Жай сан.");
+  }
+  
+  MessiisPrime();
 
 
-// const findMax = (a , b , c) => {
-//   if (a > b && a > c ){
-//     return a;
-//   }else if ( b > a && b > c){
-//     return b; 
-//   }else if (  c > a &&  c >b ){
-//     return c;
-//   }
-// }
 
 
-// console.log(findMax(num1 , num2 , num3) ) + "ylren";
 
 
 
