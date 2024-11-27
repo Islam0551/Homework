@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // let list = ['apple','banan','jia'];
+
+    // console.log(list[0]);
+    // console.log(list[1]);
+    // console.log(list[2]);
+    // console.log(list[3]);
+    
+
+
+    //  let list = ['apple','banan','jia'];
+
+    // list[1] = 'apple'
+    // list[2] = 'banan'
+
+
+    // let num1 = [1 , 2, 3];
+    // let num2 = [1 , 2, 3];
+
+    // num2  [ 0] = 99;
+    // num1 [2 ] = 123;
+
+    // console.log(num1);
+    // console.log(num2);
+
+
+    // let num1 = [' apple ' , 'banan' , 'car' , ];
+
+    // console.log(num1 [num1.length - 1]);
+    
+    // let fruits = ["alma", "banan", "jya", "samolet", "apelsin" , ];
+    //   console.log(fruits[fruits.length - 1]);
+
+    //   fruits[1] = "mango";
+    //   fruits[0] = "nan";
+
+    //   console.log(fruits[0]);
+    //   console.log(fruits[1]);
+    //   console.log(fruits[2]);
+
+    //   let san = [1, 2, 3];
+    //   let san2 = san;
+    //   san2[0] = 99;
+    //   san[2] = 123;
+
+    //   console.log(san);
+    //   console.log(san2);
+
+
+
+
+
+
+
+
+    // let num1 = [22 , 39 , 42];
+    // for (let i = 0; i < 3 ; i++){
+    //   num1[i] += 5;
+    // if (num1[i] % 2 == 0){
+    //     console.log(num1 [i] + " Жұп");   
+    // }else if  (num1 [i] % 2 == 1) {
+    //     console.log(num1 [i] + " Тақ"); 
+    // }
+    
+    // }
+
+
+
+// function example (){
+//     let san = [ 1 , 2 , 3];
+//     san.push(4 , 5);
+//     console.log(san);
+// }
+// example();
+
+
+
+//     var num2 = [] ;
+//      while(true){
+//       var num1 = prompt("Сан жаз");
+//       if (Number(num1) == 0){
+//       break;
+
+//       }
+//     num2.push(num1);
+//     }
+//   console.log(num1);
+//  console.log(num2);
+   
+let num3 = []; // Declare an array to store user inputs
+
+for (let i = 0; i < 3; i++) {
+  let input = prompt('Сан жазыңыз:'); // Prompt user for input
+  let number = Number(input); // Convert input to a number
+  
+  // Check if the input is a valid number
+  if (!isNaN(number)) {
+    num3.push(number); // Add the number to the array
+    if (number % 2 === 0) {
+      console.log(number + " Жұп"); // Even number
+    } else {
+      console.log(number + " Тақ"); // Odd number
+    }
+  } else {
+    console.log('Жарамсыз сан енгізілді'); // Invalid input
+  }
+}
+
+console.log("Кірген сандар:", num3); // Log the full array of numbers
+
+ 
+   </script>
+</body>
+</html>

@@ -142,25 +142,25 @@
 
 
 
-function MessiisPrime() {
-    let number = Number(prompt("Бір сан енгізіңіз:"));
+// function MessiisPrime() {
+//     let number = Number(prompt("Бір сан енгізіңіз:"));
   
-    if (number <= 1) {
-      alert("Жай сан емес.");
-      return;
-    }
+//     if (number <= 1) {
+//       alert("Жай сан емес.");
+//       return;
+//     }
   
-    for (let i = 2; i < number; i++) {
-      if (number % i === 0) {
-        alert("Жай сан емес.");
-        return;
-      }
-    }
+//     for (let i = 2; i < number; i++) {
+//       if (number % i === 0) {
+//         alert("Жай сан емес.");
+//         return;
+//       }
+//     }
   
-    alert("Жай сан.");
-  }
+//     alert("Жай сан.");
+//   }
   
-  MessiisPrime();
+//   MessiisPrime();
 
 
 
