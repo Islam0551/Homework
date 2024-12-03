@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>qwerty</p>
+    <script>
+//         var cities = ["Alamty" , "Astana" , "Aktobe" , "Shimkent" , "Aktay"];
+//         cities [3] = 'Almaty';
+//         console.log(cities);
+//         console.log(cities.length);
+//         console.log(cities[2]);
+//         console.log(cities);
+//         console.log(cities  [cities.length -1 ]);
+//         cities.push("Oral" , "PAvlodai");
+//         console.log(cities);
+        
+//         cities.unshift("Almaty" , "Astana" );
+//         console.log(cities);
+//         cities.pop();//Сонындағы элеменнтерді алып тастайды
+//         console.log(cities);
+//         cities.shift(); //
+//         console.log(cities);
+//         cities.splice(1 , 1 ,"tahkent" , "Oskemen" )
+//         console.log(cities);
+        
+
+//         cities.splice(1 , 4);
+
+
+
+//         cities.splice(3 , 0 , "Taldykorgan");
+//         console.log(
+//             cities
+//         );
+
+//      cities.reverse();
+//      console.log(cities);//кері айналдырады
+     
+
+// let numbers = [8 ,3 ,5 ,6, 7,];
+// console.log(numbers);
+// numbers.sort((a , b ) => b - a);//кему ретинде озгертеді
+// console.log(numbers);
+
+
+// let num1 = [1 , 2, 3, 4];
+// let num2 = num1;
+// num2.push(5);
+// console.log(num1);
+// console.log(num2);
+// num1.shift();
+// console.log(num1);
+// console.log(num2);
+
+
+
+// let num1 = [2 , 5 , 6 , 8 , 9 , 7];
+// let num2 = num1;
+// console.log(num1);
+// console.log(num2);
+
+// let num3 = [2 , 3 ,4 , 8 , 6 , 9, 7];
+// let qwerty= num3.includes(+prompt("San jaz"));
+// if (num1){
+//     alert("San tabildi")
+// }else  {
+//     alert("San tabilmadi");
+// }
+//  alert(qwerty);
+
+
+// let cities = ["Almaty" , "Karagandi"]
+// let ind = cities.indexOf("");
+// console.log(ind);
+// let inpCity = prompt("Entur a city ");
+// if (cities.indexOf(inpCity) >= 0){
+//  alert("city found")
+// }else {
+//     alert("city nit fouhd");
+// }
+
+
+
+
+
+// let array = [ 3, 5 , 9 , 5 ,15 , 23];
+
+// function menu (){
+//     let text = +prompt (`Welcome to my menu ! \n    "+array+"\n 
+//     1)Сандар қосындар\n
+//     2)Арифметикалык ортасы\n
+//     3) Белгілі бір диапозондағы сандар\n
+//     4)  Тек оң сандад\n
+//     5) Шығып кету\n
+//     `)
+
+
+//     switch (text){
+//         case 1:
+//           sumOfNumbers();
+//           break;
+//         case 2: 
+//         average();
+//         break;
+//         case 3:
+//         diapazon();
+//         break;
+//         case 4 :
+//         plusNumbers();
+//         break;
+//         case 5 :
+//         return;
+//     }
+// }
+
+// function  sumOfNumbers (){
+//     alert(array.reduce(resalts,Number => (resalts + Numbers , 0)));
+// }
+
+// function average (){
+//     alert(array.reduce(resalts , Numbers => (resalts + Numbers, 0)/array.length));
+// }
+
+// function diapazon() {
+//         let num1 = +prompt("san jaz");
+//         let num2 = +prompt("san jaz");
+
+//         alert(array.filter((numbers) => numbers > num1 && numbers < num2));
+//       }
+//       function plusnumbers() {
+//         alert(array.filter((numbers) => numbers > 0));
+//       }
+//     menu();
+
+
+
+// const student = {
+//     name : "Asan",
+//     surename : "Abai",
+//     age :  19 ,
+//     course : "Coding",
+//     address : "Uly dala , 78",
+//     phone : "87007722111"
+// }
+// student.age ++ ;
+//         console.log("Menin atim"+ student.name + student.surname + "Men" + student.age + "jastamin, kazirgi yakita" + student.course + "kyrsinda bilim alip jatirm");
+
+
+
+
+// const qwerty = {
+//     add : function (a , b){
+//         return a + b ;
+//     },
+//     minus : function (a , b){
+//         return a  - b; 
+//     },
+//     multiplication : function (a , b){
+//         return a * b ;
+//     }
+// };
+
+
+// console.log(qwerty.add(4, 10));
+// console.log(qwerty.multiplication(10,7));
+
+
+// const product = {
+//     imageUrle: "image",
+//     name: "AirPods",
+//     rating: 4.8,
+//     prise: 85990,
+//     percent: 19, 
+//     discount: function(){
+//         return this.prise -(this.prise * this.percent)/100;
+//     }
+// };
+// console.log(product.discount)
+
+
+
+
+// const worker = {
+//     name : "BEKA ",
+//     surname : "SEKA",
+//     age : 16 ,
+//     phone : "+7 705 483 10 64"
+//     description : function (){
+//         return `Hello my name is ${this.name} ${this.surname}
+//         I am ${this.age} ${this.phone}`
+//     },
+// }
+
+// console.log(worker.description());
+
+
+const qwerty = {
+    menuItems : ["Pizza" , "sushi" , "cola"],
+     displayMenu: function (){
+        return this.menuItems.join('\n');
+    }
+}
+
+console.log(qwerty.displayMenu());
+
+    </script>
+</body>
+</html>
