@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1
+const obj = { a: 1, b: 2, c: 3, d: 4 };
+const sum = Object.values(obj).reduce((acc, val) => acc + val, 0);
+console.log("Объекттегі мәндердің қосындысы:", sum);
+
+// 2
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+const mergedObj = { ...obj1, ...obj2 };
+console.log("Біріктірілген объект:", mergedObj);
+
+// 3
+const students = [
+  { id: 1, name: "A" },
+  { id: 2, name: "A" },
+  { id: 3, name: "A" },
+  { id: 4, name: "A" },
+  { id: 5, name: "A" },
+];
+
+const evenStudents = students.filter(student => student.id % 2 === 0);
+const oddStudents = students.filter(student => student.id % 2 !== 0);
+
+console.log("Жұп номердегі студенттер:", evenStudents);
+console.log("Тақ номердегі студенттер:", oddStudents);
+
+    </script>
+</body>
+</html>
