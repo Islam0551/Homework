@@ -9,8 +9,15 @@
     <script src="script.js">
 
 
+function productNames () { 
+products.map(product => product.name);
+console.log(productNames);
+}
 
-
+function totalPrice () {
+ products.reduce((sum, product) => sum + product.price, 0);
+console.log(totalPrice);
+};
     </script>
 </body>
 </html>

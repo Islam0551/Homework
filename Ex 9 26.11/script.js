@@ -53,7 +53,7 @@
 //     break;
 //   }else {
 //     continue;
-
+  
 //   }
 // }
 
@@ -163,5 +163,35 @@
   
 //   MessiisPrime();
 
-
+// Студенттердің тізімі
+const students = [
+    { name: "Айжан", age: 22, score: 85 },
+    { name: "Бекжан", age: 19, score: 78 },
+    { name: "Гүлжан", age: 21, score: 92 },
+    { name: "Данияр", age: 23, score: 88 },
+    { name: "Ерасыл", age: 20, score: 76 }
+  ];
+  
+  // 1. Барлық студенттердің есімдерін шығару
+  console.log("Барлық студенттердің есімдері:");
+  students.forEach(student => console.log(student.name));
+  
+  // 2. Жас мөлшері 20-дан жоғары студенттерді табу
+  const olderThan20 = students.filter(student => student.age > 20);
+  console.log("\nЖасы 20-дан жоғары студенттер:", olderThan20);
+  
+  // 3. Студенттердің ұпайларын 10%-ға арттыру
+  const updatedScores = students.map(student => ({
+    ...student,
+    score: student.score * 1.1
+  }));
+  console.log("\nҰпайлары 10%-ға арттырылған студенттер:", updatedScores);
+  
+  // 4. Жалпы ұпайды есептеу
+  const totalScore = students.reduce((total, student) => total + student.score, 0);
+  console.log("\nЖалпы ұпай:", totalScore);
+  
+  // 5. Ең жоғары ұпай алған студентті табу
+  const topStudent = students.reduce((max, student) => (student.score > max.score ? student : max));
+  console.log("\nЕң жоғары ұпай алған студент:", topStudent);
 
